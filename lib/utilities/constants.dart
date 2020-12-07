@@ -22,12 +22,12 @@ const kConditionTextStyle = TextStyle(
 const kTextFieldInputDecoration = InputDecoration(
   filled: true,
   fillColor: Colors.white,
-  icon: Icon(
-    Icons.location_city,
-    color: Colors.white,
-    size: 30.0,
-  ),
-  hintText: 'Enter city name',
+  // icon: Icon(
+  //   Icons.arrow_circle_down_outlined ,
+  //   color: Colors.white,
+  //   size: 30.0,
+  // ),
+  hintText: 'Where are you looking for?',
   hintStyle: TextStyle(
     color: Colors.grey,
   ),
