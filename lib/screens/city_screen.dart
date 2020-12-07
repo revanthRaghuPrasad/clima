@@ -27,13 +27,20 @@ class _CityScreenState extends State<CityScreen> {
                   onPressed: () {},
                   child: Icon(
                     Icons.arrow_back_ios,
-                    size: 50.0,
+                    size: 30.0,
                   ),
                 ),
               ),
               Container(
+                width: 400.0,
                 padding: EdgeInsets.all(20.0),
-                child: null,
+                child: TextField(
+                  onChanged: (value) {
+                    print(value);
+                  },
+                  style: TextStyle(color: Colors.black),
+                  decoration: kTextFieldInputDecoration,
+                ),
               ),
               FlatButton(
                 onPressed: () {},
